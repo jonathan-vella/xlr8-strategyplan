@@ -1,174 +1,119 @@
-# just-the-docs-template
+# XLR8: Mastering the CAF Strategy and Planning Phase
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+## Customer Scenario - StoreConnect Retail
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+![StoreConnect Retail](./media/images/storeconnect-retail.png)
 
-More specifically, the created site:
+**StoreConnect Retail** is a growing regional retailer with 75 specialty stores across five states in the southeastern U.S., specializing in apparel, accessories, and home decor. With annual revenue of $320M and 2,500 employees, they've built a loyal customer base through personalized experiences and quality merchandise.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+However, StoreConnect faces increasing competition from both national chains and e-commerce players. Their current technology infrastructure can't keep pace with changing customer expectations or provide the insights needed to optimize operations. The CIO recently gained executive support to explore a comprehensive cloud strategy leveraging Azure.
 
-To get started with creating a site, simply:
+**Current Challenges:**
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+- **Fragmented IT Environment**: Each region operates semi-independently with inconsistent systems and processes. Store operations rely on a mix of aging on-premises solutions and disconnected point solutions.
+  
+- **Limited Customer Insights**: Despite collecting customer data, StoreConnect struggles to create a unified view of customer behaviors or preferences across channels (in-store, online, mobile).
+  
+- **Inventory Management Issues**: Frequent stockouts of popular items and excess inventory of slow-moving products impact revenues and margins.
+  
+- **Seasonal Demand Fluctuation**: Business is highly seasonal (30% of sales occur during holiday periods), requiring significant infrastructure capacity that sits underutilized during off-peak times.
+  
+- **Technology Talent Gap**: The current IT team is skilled in managing on-premises systems but has limited cloud and AI expertise.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+**StoreConnect's Strategic Goals:**
 
-After completing the creation of your new site on GitHub, update it as needed:
+- **Unify Customer Experiences**: Create seamless shopping journeys across physical stores and digital channels.
+  
+- **Implement Data-Driven Decisions**: Leverage AI/ML to optimize inventory, personalize customer interactions, and forecast demand.
+  
+- **Increase Operational Agility**: Enhance ability to rapidly deploy new capabilities and adapt to market changes.
+  
+- **Improve Cost Efficiency**: Move from capital-intensive IT investments to an operational expense model with better scalability.
+  
+- **Modernize Technology Foundation**: Replace legacy applications with cloud-native solutions where appropriate.
 
-## Replace the content of the template pages
+**Cloud Transformation Vision:**
 
-Update the following files to your own content:
+The CEO and board have given conditional approval to begin cloud adoption planning, with the requirement that the team delivers:
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+1. A clear cloud adoption strategy with defined business outcomes and metrics
+2. A comprehensive assessment of risks and mitigation approaches
+3. A high-level cloud adoption plan with prioritized workloads
+4. A business case showing expected ROI within 36 months
 
-## Changing the version of the theme and/or Jekyll
+The newly appointed Chief Digital Officer needs your help to develop this strategy and plan using the Microsoft Cloud Adoption Framework. Your completed plan will be presented to the executive leadership team, who need to be convinced of both the business value and technical feasibility of moving to Azure.
 
-Simply edit the relevant line(s) in the `Gemfile`.
+---
 
-## Adding a plugin
+## IT Environment Details
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+- **Applications Portfolio**:
+  - Core retail management system (15 years old, custom-developed)
+  - E-commerce platform (5 years old, heavily customized)
+  - Point of sale systems (varying ages, mix of vendors)
+  - Warehouse management system (8 years old)
+  - Customer loyalty program (3 years old)
+  - Business intelligence and reporting (mix of tools)
+  - Corporate systems (HR, Finance, etc.)
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+- **Infrastructure**: 
+  - Two company-owned small datacenters (primary and backup)
+  - Aging server infrastructure (refresh cycle due)
+  - Limited virtualization
+  - Basic disaster recovery capabilities
+  - Growing storage needs for customer and product data
 
-- Add the following to your site's `Gemfile`:
+- **Data Estate**:
+  - Multiple disconnected databases (SQL Server, Oracle)
+  - No centralized data lake or warehouse
+  - Limited capabilities for real-time analytics
+  - Growing unstructured data from digital channels
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+---
 
-- And add the following to your site's `_config.yml`:
+## Financial Considerations
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+The following information can help you formulate estimates for cost-savings, ROI, and required investments:
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+- Current annual IT spend is approximately 4.8% of revenue (~$15.3M)
+- IT spend breakdown:
+  - Infrastructure and datacenter: 35% ($5.36M)
+  - Applications (development and maintenance): 30% ($4.59M)
+  - IT staff and operations: 25% ($3.83M)
+  - Security and compliance: 10% ($1.53M)
+  
+- Key financial drivers for cloud adoption:
+  - Datacenter equipment refresh avoided ($3.8M over next 3 years)
+  - Current datacenter operating costs ($2.2M annually)
+  - License renewal for legacy systems ($1.5M due within 12 months)
+  - Expected staffing needs with/without cloud adoption
+  - Improved inventory management potential (1-2% reduction in carrying costs)
+  - Enhanced customer personalization (projected 5-8% increase in average order value)
 
-## Publishing your site on GitHub Pages
+---
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+## Workshop Challenges Overview
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+This workshop will guide you through building a comprehensive cloud adoption strategy and plan for StoreConnect Retail using the Microsoft Cloud Adoption Framework methodology:
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+- **Challenge 1**: [Define the Cloud Adoption Strategy](./challenge1.md)
+- **Challenge 2**: [FinOps Review & Assessment](./challenge2.md)
+- **Challenge 3**: [Inform Strategy & Address Risks](./challenge3.md)
+- **Challenge 4**: [Develop the Cloud Adoption Plan](./challenge4.md)
+- **Challenge 5**: [Present the Strategy & Plan to Leadership](./challenge5.md)
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+## Workshop Setup
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+This repository is set up to be published as a GitHub Pages site. To view the workshop as a website:
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+1. Go to the GitHub Pages URL: https://[username].github.io/xlr8-strategyplan
+2. Navigate through the workshop challenges using the links provided
 
-## Building and previewing your site locally
+## Repository Structure
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
-
-2.  Run `bundle install`.
-
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
-
-    The built site is stored in the directory `_site`.
-
-## Publishing your built site on a different platform
-
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/_site/
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+- `index.md`: Main landing page
+- `workshop-overview.md`: Detailed workshop information
+- `challenge1.md` - `challenge5.md`: Individual challenge instructions
+- `faq.md`: Frequently asked questions
+- `media/`: Directory containing workshop images and resources
+- `_config.yml`: Jekyll configuration for GitHub Pages
