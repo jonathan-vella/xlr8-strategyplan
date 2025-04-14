@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Challenge 2 - FinOps Review & Assessment
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## Challenge 2 - FinOps Review & Assessment (1hr 15mins)

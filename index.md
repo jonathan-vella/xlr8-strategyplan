@@ -1,6 +1,4 @@
----
-layout: default
-title: Home
+
 ---
 
 # XLR8: Mastering the CAF Strategy and Planning Phase

@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Challenge 5 - Present the Strategy & Plan to Leadership
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## Challenge 5 - Present the Strategy & Plan to Leadership (1hr 30mins)

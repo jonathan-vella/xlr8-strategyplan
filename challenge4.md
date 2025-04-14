@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Challenge 4 - Develop the Cloud Adoption Plan
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## Challenge 4 - Develop the Cloud Adoption Plan (1hr 30mins)

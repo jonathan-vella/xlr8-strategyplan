@@ -1,6 +1,4 @@
----
-layout: default
-title: Workshop Overview
+
 ---
 
 # Workshop Overview: Mastering the CAF Strategy and Planning Phase

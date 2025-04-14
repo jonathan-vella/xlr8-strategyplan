@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Workshop FAQ
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## FAQs

@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Challenge 1 - Define the Cloud Adoption Strategy
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## Challenge 1 - Define the Cloud Adoption Strategy (1hr 45mins)

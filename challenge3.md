@@ -1,7 +1,6 @@
+
 ---
-layout: default
-title: Challenge 3 - Inform Strategy & Address Risks
----
+
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
 ## Challenge 3 - Inform Strategy & Address Risks (1hr 15mins)
