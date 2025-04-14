@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Challenge 2
-nav_order: 3
+nav_order: 5
 ---
 
 # XLR8: Mastering the CAF Strategy and Planning Phase

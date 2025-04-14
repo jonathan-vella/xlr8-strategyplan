@@ -1,8 +1,10 @@
-# XLR8: Mastering the CAF Strategy and Planning Phase
+---
+layout: default
+title: Customer Story
+nav_order: 3
+---
 
-## Customer Scenario - StoreConnect Retail
-
-![StoreConnect Retail](./media/images/storeconnect-retail.png)
+![StoreConnect Retail](../media/images/storeconnect-retail.png)
 
 **StoreConnect Retail** is a growing regional retailer with 75 specialty stores across five states in the southeastern U.S., specializing in apparel, accessories, and home decor. With annual revenue of $320M and 2,500 employees, they've built a loyal customer base through personalized experiences and quality merchandise.
 
@@ -91,21 +93,3 @@ The following information can help you formulate estimates for cost-savings, ROI
   - Enhanced customer personalization (projected 5-8% increase in average order value)
 
 ---
-
-## Workshop Challenges Overview
-
-This workshop will guide you through building a comprehensive cloud adoption strategy and plan for StoreConnect Retail using the Microsoft Cloud Adoption Framework methodology:
-
-- **Challenge 1**: [Define the Cloud Adoption Strategy](./docs/challenge1.md)
-- **Challenge 2**: [FinOps Review & Assessment](./docs/challenge2.md)
-- **Challenge 3**: [Inform Strategy & Address Risks](./docs/challenge3.md)
-- **Challenge 4**: [Develop the Cloud Adoption Plan](./docs/challenge4.md)
-- **Challenge 5**: [Present the Strategy & Plan to Leadership](./docs/challenge5.md)
-
-## Workshop Setup
-
-This repository is set up to be published as a GitHub Pages site. To view the workshop as a website:
-
-1. Go to the GitHub Pages URL: https://jonathan-vella.github.io/xlr8-strategyplan
-2. Navigate through the workshop challenges using the links provided
-

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-nav_order: 8
+nav_order: 9
 ---
 
 # XLR8: Mastering the CAF Strategy and Planning Phase
