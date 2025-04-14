@@ -1,6 +1,6 @@
 title: XLR8 Mastering the CAF Strategy and Planning Phase
 description: This workshop is designed to help participants develop a comprehensive cloud adoption strategy and plan for StoreConnect Retail, a growing regional retailer.
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.5.3
 
 url: https://jonathan-vella.github.io
 baseurl: "/xlr8-strategyplan"
