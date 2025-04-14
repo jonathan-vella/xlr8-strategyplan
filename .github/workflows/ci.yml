@@ -6,7 +6,6 @@ on:
   pull_request:
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -15,13 +14,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a .ruby-version file
+          ruby-version: '3.3'
           bundler-cache: true
-          cache-version: 0
       - name: Install Bundler
         run: gem install bundler -v 2.5.9
       - name: Unset Bundler Frozen
         run: bundle config set frozen false
       - name: Build with Jekyll
         run: bundle exec jekyll build
-        
