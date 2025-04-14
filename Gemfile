@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "just-the-docs", "~> 0.5.3"  # Use a version compatible with GitHub Pages
+gem "csv"  # Add CSV gem to address warning
+gem "faraday-retry"  # Add faraday-retry gem to address warning
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
