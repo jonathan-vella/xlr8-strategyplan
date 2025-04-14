@@ -1,9 +1,16 @@
 title: XLR8 Mastering the CAF Strategy and Planning Phase
 description: This workshop is designed to help participants develop a comprehensive cloud adoption strategy and plan for StoreConnect Retail, a growing regional retailer.
-remote_theme: just-the-docs/just-the-docs
+
+# Theme settings - use the standard GitHub Pages theme approach
+remote_theme: pmarsceill/just-the-docs
 
 url: https://jonathan-vella.github.io
 baseurl: "/xlr8-strategyplan"
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 aux_links:
   Template Repository: https://github.com/jonathan-vella/xlr8-strategyplan
@@ -14,11 +21,6 @@ collections:
     permalink: "/:collection/:path/"
     output: true
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-      
 # Enable callouts
 callouts_level: quiet # or loud
 callouts:
