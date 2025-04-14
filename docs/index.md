@@ -3,7 +3,7 @@
 
 # XLR8: Mastering the CAF Strategy and Planning Phase
 
-![StoreConnect Retail](./media/images/storeconnect-retail.png)
+![StoreConnect Retail](../media/images/storeconnect-retail.png)
 
 ## Workshop Overview
 
@@ -13,11 +13,11 @@ This workshop is designed to help participants develop a comprehensive cloud ado
 
 The workshop is structured into five challenges, with a total duration of approximately 7 hours and 15 minutes:
 
-- [Challenge 1: Define the Cloud Adoption Strategy](./challenge1.html) (1hr 45mins)
-- [Challenge 2: FinOps Review & Assessment](./challenge2.html) (1hr 15mins)
-- [Challenge 3: Inform Strategy & Address Risks](./challenge3.html) (1hr 15mins)
-- [Challenge 4: Develop the Cloud Adoption Plan](./challenge4.html) (1hr 30mins)
-- [Challenge 5: Present the Strategy & Plan to Leadership](./challenge5.html) (1hr 30mins)
+- [Challenge 1: Define the Cloud Adoption Strategy](./docs/challenge1.html) (1hr 45mins)
+- [Challenge 2: FinOps Review & Assessment](./docs/challenge2.html) (1hr 15mins)
+- [Challenge 3: Inform Strategy & Address Risks](./docs/challenge3.html) (1hr 15mins)
+- [Challenge 4: Develop the Cloud Adoption Plan](./docs/challenge4.html) (1hr 30mins)
+- [Challenge 5: Present the Strategy & Plan to Leadership](./docs/challenge5.html) (1hr 30mins)
 
 ## Target Audience
 

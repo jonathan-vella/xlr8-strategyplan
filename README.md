@@ -96,17 +96,17 @@ The following information can help you formulate estimates for cost-savings, ROI
 
 This workshop will guide you through building a comprehensive cloud adoption strategy and plan for StoreConnect Retail using the Microsoft Cloud Adoption Framework methodology:
 
-- **Challenge 1**: [Define the Cloud Adoption Strategy](./challenge1.md)
-- **Challenge 2**: [FinOps Review & Assessment](./challenge2.md)
-- **Challenge 3**: [Inform Strategy & Address Risks](./challenge3.md)
-- **Challenge 4**: [Develop the Cloud Adoption Plan](./challenge4.md)
-- **Challenge 5**: [Present the Strategy & Plan to Leadership](./challenge5.md)
+- **Challenge 1**: [Define the Cloud Adoption Strategy](./docs/challenge1.md)
+- **Challenge 2**: [FinOps Review & Assessment](./docs/challenge2.md)
+- **Challenge 3**: [Inform Strategy & Address Risks](./docs/challenge3.md)
+- **Challenge 4**: [Develop the Cloud Adoption Plan](./docs/challenge4.md)
+- **Challenge 5**: [Present the Strategy & Plan to Leadership](./docs/challenge5.md)
 
 ## Workshop Setup
 
 This repository is set up to be published as a GitHub Pages site. To view the workshop as a website:
 
-1. Go to the GitHub Pages URL: https://[username].github.io/xlr8-strategyplan
+1. Go to the GitHub Pages URL: https://jonathan-vella.github.io/xlr8-strategyplan
 2. Navigate through the workshop challenges using the links provided
 
 ## Repository Structure
