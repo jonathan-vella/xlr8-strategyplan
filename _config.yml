@@ -3,6 +3,36 @@ description: This workshop is designed to help participants develop a comprehens
 theme: just-the-docs
 
 url: https://jonathan-vella.github.io
+baseurl: "/xlr8-strategyplan"
 
 aux_links:
   Template Repository: https://github.com/jonathan-vella/xlr8-strategyplan
+
+# For proper linking in the navigation
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      
+# Enable callouts
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note 
+    color: purple
+  warning:
+    title: Warning
+    color: red
