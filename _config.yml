@@ -12,10 +12,12 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Exclude workshop-assets from navigation and processing
+# Exclude specific directories from processing
 exclude:
   - workshop-assets/
   - "workshop-assets/**"
+  - vendor/
+  - "vendor/**"
 
 aux_links:
   Template Repository: https://github.com/jonathan-vella/xlr8-strategyplan
